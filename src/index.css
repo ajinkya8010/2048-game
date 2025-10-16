@@ -50,11 +50,19 @@ main{
 /* Scoreboard */
 .scoreboard{
   width: 100%;
-  max-width: 420px;
+  max-width: 320px;
   display:flex;
-  align-items:center;
-  justify-content:space-evenly;
+  align-items: flex-start;
+  justify-content:space-between;
   margin-bottom:4px;
+  flex-wrap: wrap;
+}
+
+.status{
+  width: 100%;
+  text-align: center;
+  margin-top: 9px;
+  order: 3;
 }
 
 .score{
@@ -73,8 +81,8 @@ main{
   color:white;
   cursor:pointer;
 }
-.status .win{color:green; margin-left:10px}
-.status .lose{color:red; margin-left:10px}
+.status .win{color:green;}
+.status .lose{color:red; }
 
 /* Board */
 .board-wrapper{
@@ -135,7 +143,7 @@ main{
 }
 .controls .lr{
   display:flex;
-  gap:8px;
+  gap:32px;
 }
 
 /* small note */
