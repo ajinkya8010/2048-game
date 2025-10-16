@@ -11,10 +11,6 @@
  * IMPORTANT: none of these mutate the input board.
  */
 
-function clone(board) {
-  return board.map((row) => row.slice());
-}
-
 /** compress a single row to the left (remove zeros) */
 function compressRow(row) {
   const filtered = row.filter((v) => v !== 0);
