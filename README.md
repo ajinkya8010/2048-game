@@ -2,7 +2,7 @@
 
 A modern, fully-functional implementation of the popular 2048 puzzle game built with React and functional programming principles. Slide numbered tiles on a grid to combine them and create a tile with the number 2048.
 
-## 🎮 [Play the Game](https://your-deployment-link.vercel.app)
+## 🎮 [Play the Game](https://two048-game-awks.onrender.com)
 
 ## ✨ Features
 
